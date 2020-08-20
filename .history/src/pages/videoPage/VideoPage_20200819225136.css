@@ -1,0 +1,108 @@
+.videoPage {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 25px 7% 25px 7%;
+}
+
+.videoPageLeft {
+  flex: 0.6;
+}
+
+.videoContainer {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.embedVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoPageTags {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.videoPageTitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #030303;
+}
+
+.videoPageDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px;
+}
+
+.videoPageDetails > p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #606060;
+}
+
+.videoPageButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 13px;
+  color: #606060;
+}
+
+.videoPageButtons > .buttonIcon {
+  font-size: 20px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.videoPageChannel {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.videoPageChannelInfo {
+  display: flex;
+  align-items: center;
+}
+
+.videoPageChannelText{
+    padding-left: 15px;
+}
+
+.videoPageChannelText > p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #030303;
+}
+
+.videoPageChannelText > span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #606060;
+}
+
+.videoPageSubsInfo {
+  display: flex;
+  align-items: center;
+}
+
+.videoPageSubsInfo>button{
+    background-color: #ececec;
+    padding:5px;
+    border:none
+}
+
+.videoPageRight {
+  flex: 0.4;
+}

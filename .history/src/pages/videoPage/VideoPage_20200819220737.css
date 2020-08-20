@@ -1,0 +1,15 @@
+.videoPage {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 25px 100px 25px 100px;
+}
+
+.videoPageVideoInfo {
+}
+
+.embedVideo {
+  width: 100%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

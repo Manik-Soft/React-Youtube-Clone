@@ -1,0 +1,15 @@
+.upNext {
+  flex: 0.4;
+}
+
+.upNextTop {
+  display: flex;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

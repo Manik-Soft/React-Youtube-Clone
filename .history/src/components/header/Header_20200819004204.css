@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.headerLogo {
+  height: 25px;
+}
+
+.headerInput{
+    display: flex;
+    align-items: center;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+}

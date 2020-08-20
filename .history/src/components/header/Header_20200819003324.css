@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+}
+
+.headerLogo {
+  height: 25px;
+}

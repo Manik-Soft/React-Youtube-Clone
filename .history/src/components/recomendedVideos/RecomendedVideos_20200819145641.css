@@ -1,0 +1,20 @@
+.recomendedVideos {
+  flex: 0.8;
+}
+
+.recomendedVideosBig {
+  flex: 0.9;
+}
+
+.recomendedVideos,
+.recomendedVideosBig {
+  background-color: #792626;
+  padding: 40px 20px;
+  padding-bottom: 0;
+}
+
+.recomendedVideos > h2,
+.recomendedVideosBig > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}

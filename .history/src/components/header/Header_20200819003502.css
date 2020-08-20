@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  /* align-items: center; */
+}
+
+.headerLogo {
+  height: 25px;
+}

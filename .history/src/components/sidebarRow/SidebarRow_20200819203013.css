@@ -1,0 +1,77 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.sidebarRowIcon {
+  color: #606060;
+  font-size: large !important;
+}
+
+.sidebarRowTitle {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sidebarRow:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.sidebarRow:hover > .sidebarRowIcon {
+  color: red;
+}
+
+.sidebarRow:hover > .sidebarRowTitle {
+  font-weight: bold;
+}
+
+.sidebarRowMini {
+  padding: 10px 20px;
+}
+
+.sidebarRowMini > .sidebarRowIcon {
+  color: #606060;
+  font-size: 25px !important;
+  text-align: center;
+}
+
+.sidebarRowMini:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.sidebarRowMini:hover > .sidebarRowIcon {
+  color: red;
+}
+
+.sidebarRowMini > .sidebarRowTitle {
+  display: none;
+}
+
+.sidebarRowMini > .sidebarRowTitle {
+  display: none;
+}
+
+.sidebarRow.selected {
+  background-color: #f2f2f2;
+}
+
+.sidebarRowMini.selected {
+  background-color: #f2f2f2;
+}
+
+.sidebarRow.selected >.sidebarRowIcon {
+  color: red;
+}
+
+.sidebarRowMini.selected >.sidebarRowIcon {
+  color: red;
+}
+
+.sidebarRow.selected >.sidebarRowTitle {
+  font-weight: bold;
+}

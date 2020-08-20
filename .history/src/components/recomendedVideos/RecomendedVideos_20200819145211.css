@@ -1,0 +1,12 @@
+.recomendedVideos.recomendedVideosBig{
+  background-color: lightgreen;
+}
+.recomendedVideos {
+  flex: 0.8;
+  background-color: lightgreen;
+
+}
+
+.recomendedVideosBig {
+  flex: 0.9;
+}

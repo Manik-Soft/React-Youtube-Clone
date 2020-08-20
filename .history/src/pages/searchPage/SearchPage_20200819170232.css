@@ -1,0 +1,28 @@
+.searchPage{
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 20px 20px;
+}
+
+.searchPageBig{
+    flex: 0.9;
+}
+
+.searchPageFilter{
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+
+.searchPageFilter >h2{
+    margin-left: 10px;
+}
+
+.searchPage >hr, .searchPage >hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

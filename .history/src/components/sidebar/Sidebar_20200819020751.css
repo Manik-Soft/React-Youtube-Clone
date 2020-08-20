@@ -1,0 +1,8 @@
+.sidebar{
+    flex: 0.2;
+}
+
+.sidebarMini{
+    flex: 0.2;
+    background-color: lightgreen;
+}
